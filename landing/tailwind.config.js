@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'brand-purple': '#6B21A8', // example purple shade
+      },
+    },
   },
   plugins: [],
 }
