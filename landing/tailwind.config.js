@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+      },
       colors: {
         'brand-purple': '#533fe6ff', // example purple shade
       },

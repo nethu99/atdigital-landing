@@ -13,25 +13,47 @@ export default function Header() {
             <img
               src="/Hlogo.png" // if in public folder
               alt="AT Digital Logo"
-              className="h-6 w-6 object-contain"
+              style={
+                {
+                  width: "44.02px",
+                  height: "43.75px",
+                  opacity: 1,
+                  transform: "rotate(0deg)"
+                }
+              }
             />
+            <img
+  src="/at digital.png"
+  alt="AT Digital Logo"
+  style={{
+    width: "167.98324584960938px",
+    height: "49.62127685546875px",
+    opacity: 1,
+    transform: "rotate(0deg)"
+  }}
+/>
+
+              
           
-          <span className="text-lg font-bold tracking-tight">at digital</span>
+          {/* <span className="text-lg font-bold tracking-tight">at digital</span> */}
         </a>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-8 text-sm font-medium md:flex">
-          <a href="#services" className="hover:underline underline-offset-4">Services</a>
-          <a href="#about" className="hover:underline underline-offset-4">About Us</a>
-          <a href="#contact" className="hover:underline underline-offset-4">Contact Us</a>
-          <a href="#careers" className="hover:underline underline-offset-4">Careers</a>
-          {/* <a */}
-            {/* href="#cta" */}
-            {/* className="rounded-md bg-gradient-to-r from-cyan-400 to-blue-600 px-4 py-2 font-semibold text-white shadow hover:shadow-md" */}
-          {/* > */}
-            {/* Get Free Consultation */}
-          {/* </a> */}
-        </nav>
+<nav className="hidden md:flex items-center gap-[28px] text-[14px] font-medium leading-[100%] text-white font-inter">
+  <a href="#services" className="h-[17px] hover:underline underline-offset-4">
+    SERVICES
+  </a>
+  <a href="#about" className="h-[17px] hover:underline underline-offset-4">
+    ABOUT US
+  </a>
+  <a href="#contact" className="h-[17px] hover:underline underline-offset-4">
+    CONTACT US
+  </a>
+  <a href="#careers" className="h-[17px] hover:underline underline-offset-4">
+    CAREERS
+  </a>
+</nav>
+
 
         {/* Mobile menu button */}
         <button

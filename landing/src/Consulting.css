@@ -1,0 +1,59 @@
+.consulting-section {
+  width: 100%;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.consulting-content {
+  width: 1064px;
+  display: flex;
+  align-items: center;
+  gap: 108px; /* Matches your layout gap */
+}
+
+.consulting-text {
+  flex: 1;
+}
+
+.consulting-text h2 {
+  font-size: 28px;
+  color: #4a3aff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.consulting-text p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.consulting-btn {
+  background-color: #f58220;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.consulting-btn:hover {
+  background-color: #e46e15;
+}
+
+.consulting-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.consulting-image img {
+  width: 414px;
+  height: 414px;
+  object-fit: contain;
+}

@@ -1,13 +1,30 @@
-import Navbar from "./Header";
-//import Footer from "./pages/Footer";
+// src/App.jsx
+import React from "react";
+import Header from "./Header";
+import HeroSection from "./HeroSection";
+import WebMobile from "./WebMobile";
+import Consulting from "./Consulting";
+import Footer from "./Footer";
+
 function App() {
   return (
     <>
-      <Navbar />
-      {/* Page Content */}
-      <div className="min-h-[60vh]"></div>
-      {/* <Footer /> */}
+      {/* Header */}
+      <Header />
+
+      {/* Hero Section */}
+      <HeroSection />
+
+      {/* Web & Mobile Section */}
+      <WebMobile />
+
+      {/* Consulting Section */}
+      <Consulting />
+      
+      {/* Footer */}
+      <Footer />
     </>
   );
 }
+
 export default App;
