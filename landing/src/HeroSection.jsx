@@ -1,36 +1,49 @@
 import React from "react";
 
-
-
 const HeroSection = () => {
   return (
-    <>
-      {/* <Header /> */}
-      <section
+    <section
+      style={{
+        width: "1342px",
+        height: "900px",
+        backgroundImage: "url('/background.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        position: "relative",
+        // margin: "0px ",
+        // top:"-336px",
+        scale:"crop",
+        
+      }}
+    >
+      <div
         style={{
-          width: "1440px",
-          height: "700px",
-          backgroundImage: "url('/background.jpg')", // Put background.jpg in public/
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          width: "500px",
+          height: "306px",
+          position: "absolute",
+          top: "550px",
+          left: "60px",
           opacity: 1,
-          position: "relative",
-          margin: "0 auto",
+          paddingTop: "20px",
+          paddingRight: "40px",
+          // paddingBottom: "0px",
+          paddingLeft: "40px",
+          gap: "20px",
+          borderRadius: "7px",
+          background: "linear-gradient, linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%);))",
         }}
-        className="flex items-center justify-start"
       >
-        {/* Example content box */}
-        <div className="bg-gradient-to-r from-green-400 to-cyan-500 p-8 max-w-lg text-white">
-          <h1 className="text-4xl font-bold mb-4">
-            We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
-          </h1>
-          <button className="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded font-semibold">
-            GET FREE CONSULTATION
-          </button>
-        </div>
-      </section>
-      
-    </>
+        <h1 className="text-4xl font-bold leading-snug mb-6 text-white">
+          We Crush Your 
+          <br></br>Competitors, Goals, And 
+          <br></br>Sales Records - Without 
+          <br></br>The B.S.
+        </h1>
+        <button className="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded font-semibold text-white">
+          GET FREE CONSULTATION
+        </button>
+      </div>
+    </section>
   );
 };
 

@@ -6,7 +6,8 @@ const WebMobile = () => {
       <div
         className="
           mx-auto max-w-[1064px] min-h-[414px]
-          flex items-center gap-[108px] py-10
+          flex items-center gap-[108px] pt-2 pb-20
+
         "
       >
         {/* Image — 414 x 414 */}

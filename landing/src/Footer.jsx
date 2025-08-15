@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#4B3AFF] text-white w-full px-20 py-10">
+    <footer className="bg-[#4B3AFF] text-white w-full px-20 py-6">
       {/* Top section */}
       <div className="max-w-[1280px] mx-auto flex justify-between">
         {/* Left - Logo + Description */}
@@ -72,7 +72,7 @@ const Footer = () => {
       </div>
 
       {/* Divider + Privacy/Terms */}
-      <div className="flex flex-col items-center my-[40px]">
+      <div className="flex flex-col items-center my-[4px]">
         {/* Divider */}
         <div
           className="border-t border-white"

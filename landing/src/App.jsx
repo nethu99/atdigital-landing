@@ -4,6 +4,7 @@ import Header from "./Header";
 import HeroSection from "./HeroSection";
 import WebMobile from "./WebMobile";
 import Consulting from "./Consulting";
+import FAQ from "./FAQ";
 import Footer from "./Footer";
 
 function App() {
@@ -20,7 +21,10 @@ function App() {
 
       {/* Consulting Section */}
       <Consulting />
-      
+
+      {/* FAQ Section */}
+      <FAQ />
+
       {/* Footer */}
       <Footer />
     </>
