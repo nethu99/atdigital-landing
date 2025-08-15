@@ -10,7 +10,7 @@
   width: 1064px;
   display: flex;
   align-items: center;
-  gap: 108px; /* Matches your layout gap */
+  gap: 108px; /* Matches layout gap */
 }
 
 .consulting-text {

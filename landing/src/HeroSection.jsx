@@ -3,44 +3,21 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section
+      className="w-full h-[600px] md:h-[900px] bg-cover bg-center relative"
       style={{
-        width: "1482px",
-        height: "900px",
-        backgroundImage: "url('/background.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        position: "relative",
-        margin: "0px ",
-        // top:"-336px",
-        scale:"crop",
-        
+        backgroundImage: "url('/background.jpg')"
       }}
     >
       <div
-        style={{
-          width: "500px",
-          height: "306px",
-          position: "absolute",
-          top: "550px",
-          left: "60px",
-          opacity: 1,
-          paddingTop: "20px",
-          paddingRight: "40px",
-          paddingBottom: "0px",
-          paddingLeft: "40px",
-          gap: "20px",
-          borderRadius: "7px",
-          background: "linear-gradient(to right, rgba(29, 220, 182, 1), hsla(194, 72%, 52%, 1.00))",
-
-        }}
+        className="absolute bottom-10 left-5 md:left-16 bg-gradient-to-r from-[#1CBDDD] to-[#4DCA79] rounded-md p-6 md:p-10 max-w-[90%] md:max-w-[500px]"
       >
-        <h1 className="text-4xl font-bold leading-snug mb-6 text-white">
-          We Crush Your 
-          <br></br>Competitors, Goals, And 
-          <br></br>Sales Records - Without 
-          <br></br>The B.S.
+        <h1 className="text-2xl md:text-4xl font-bold leading-snug mb-6 text-white">
+          We Crush Your <br />
+          Competitors, Goals, And <br />
+          Sales Records - Without <br />
+          The B.S.
         </h1>
-        <button className="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded font-semibold text-white">
+        <button className="bg-orange-500 hover:bg-orange-600 px-4 py-2 md:px-6 md:py-3 rounded font-semibold text-white">
           GET FREE CONSULTATION
         </button>
       </div>
