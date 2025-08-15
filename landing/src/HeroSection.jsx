@@ -4,13 +4,13 @@ const HeroSection = () => {
   return (
     <section
       style={{
-        width: "1342px",
+        width: "1482px",
         height: "900px",
         backgroundImage: "url('/background.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         position: "relative",
-        // margin: "0px ",
+        margin: "0px ",
         // top:"-336px",
         scale:"crop",
         
@@ -26,11 +26,12 @@ const HeroSection = () => {
           opacity: 1,
           paddingTop: "20px",
           paddingRight: "40px",
-          // paddingBottom: "0px",
+          paddingBottom: "0px",
           paddingLeft: "40px",
           gap: "20px",
           borderRadius: "7px",
-          background: "linear-gradient, linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%);))",
+          background: "linear-gradient(to right, rgba(29, 220, 182, 1), hsla(194, 72%, 52%, 1.00))",
+
         }}
       >
         <h1 className="text-4xl font-bold leading-snug mb-6 text-white">
