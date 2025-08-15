@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'brand-purple': '#6B21A8', // example purple shade
+        'brand-purple': '#533fe6ff', // example purple shade
       },
     },
   },
